@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+div.jumbotron nav{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(200px);
+    font-family: 'Poppins', sans-serif;
+    background-color: #E85A4F;
+    font-size: 120%;
+    
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.jumbotron h1{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(200px);
+  background-color: #E85A4F;
+    
+}
+
+
+.push-spaces
+{
+    height: auto;
+
+}
+
+.special-card {
+    backdrop-filter: blur(10px);
+    color: white;
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.card{
+    border-radius: 4px;
+    box-shadow: 0 6px 10px #8e8d8a;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);    
+    cursor: pointer;    
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px #8e8d8a, 0 4px 8px #8e8d8a;
+}
+
+
+
+.special-card, h1, p{
+  backdrop-filter: blur(10px);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    background: #55ACEE;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 200px; /* change this to change the size*/
+  }
+
+
+  .fa-linkedin{
+    background: #0077b5;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+
+  .fa-github {
+    background: #4078c0;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+  }
+
+  footer {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+               /* Footer height */
+  }
+
+.special-container{
+  margin-bottom: 50px
+}
+

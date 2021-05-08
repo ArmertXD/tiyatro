@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+nav {
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+
+
+section p {
+  font-family: 'Poppins', sans-serif;
+  line-height:2;
+  padding-bottom: 1em;
+}
+
+
+.EskiTürkler {
+    background: linear-gradient(to right top, #c0c0aa, #1cefff);
+
+}
+
+.Islamiyet {
+    background: linear-gradient(to right top, #c94b4b, #4b134f);
+}
+
+.Osmanli {
+    background: linear-gradient(to right top, #1D976C, #93F9B9);
+}
+
+.Cumhuriyet {
+    background: linear-gradient(to right top, #333333, #EF3B36);
+}
+
+
+
+
+.special-card-block {
+    background-color: rgba(245, 245, 245, 1)!important;
+    color: azure;
+    
+}
+
+.special-card {
+    backdrop-filter: blur(2000px);
+    color: azure;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    background: #55ACEE;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 200px; /* change this to change the size*/
+  }
+
+
+  .fa-linkedin{
+    background: #0077b5;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+
+  .fa-github {
+    background: #4078c0;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+  }
+
+footer{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.material-icon  {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  width: 144000000000000000000px; /* Increased font-size */
+}

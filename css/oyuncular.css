@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+nav {
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+
+
+section p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    background: #55ACEE;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 200px; /* change this to change the size*/
+  }
+
+
+  .fa-linkedin{
+    background: #0077b5;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+
+  }
+
+  .fa-github {
+    background: #4078c0;
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+  }
+
+footer{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.material-icon  {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  width: 144000000000000000000px; /* Increased font-size */
+}
+
+.container{
+    margin-top: 1%;
+}
+
+.card-body{
+    background-color: #E98074;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.special-card{
+    margin-top: 5%;
+}
+@media screen and (min-width:768px){
+.container img{
+    margin: 0;
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%) 
+}
+
+}
